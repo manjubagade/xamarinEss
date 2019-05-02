@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinEssExamples.Views.AppInformation">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="App name" x:Name="labelappinfo" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" TextColor="Black" FontAttributes="Bold" FontSize="Large"/>
+            <Label  Text="App version" x:Name="labelvertioninfo" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" TextColor="Black" FontAttributes="Bold" FontSize="Large"/>
+            <StackLayout>
+                <Button Text="AppSetting" Clicked="Button_Clicked"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
